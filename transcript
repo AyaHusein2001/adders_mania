@@ -1,0 +1,730 @@
+#  Trace back: can't read "::vsimPriv(tbarBtnIgnore)": no such element in array
+#     while executing
+# "if { ! $::vsimPriv(tbarBtnIgnore) } {
+#             ButtonInvoke $b $m
+#          }"
+#     (procedure "Tbar::BMenu::Action" line 51)
+#     invoked from within
+# "Tbar::BMenu::Action release .dockbar.tbf8.bookmarks.tb.button_50 .dockbar.tbf8.bookmarks.tb.button_50.menu 21 9 1"
+#     (command bound to event)
+#    <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {can't read "::vsimPriv(tbarBtnIgnore)": no such element in array}
+#    <1:eval:1: ::tk::dialog::error::bgerror {can't read "::vsimPriv(tbarBtnIgnore)": no such element in array}
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_adder
+# vsim -gui work.tb_adder 
+# Start time: 22:17:15 on Oct 29,2022
+# Loading work.tb_adder
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position end  sim:/tb_adder/A
+add wave -position end  sim:/tb_adder/B
+add wave -position end  sim:/tb_adder/cin
+add wave -position end  sim:/tb_adder/S
+add wave -position end  sim:/tb_adder/cout
+add wave -position end  sim:/tb_adder/i
+add wave -position end  sim:/tb_adder/j
+add wave -position end  sim:/tb_adder/error
+run
+quit -sim
+# End time: 22:22:04 on Oct 29,2022, Elapsed time: 0:04:49
+# Errors: 0, Warnings: 9
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA_tb_not_complete.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA_tb_not_complete.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.tb_adder
+# vsim -gui work.tb_adder 
+# Start time: 23:36:18 on Oct 29,2022
+# Loading work.tb_adder
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (4) for port 'A'. The port definition is at: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/SelectAdder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_adder/uut File: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/Select_tb.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (4) for port 'B'. The port definition is at: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/SelectAdder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_adder/uut File: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/Select_tb.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (4) for port 'S'. The port definition is at: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/SelectAdder.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_adder/uut File: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/Select_tb.v Line: 14
+add wave -position end  sim:/tb_adder/A
+add wave -position end  sim:/tb_adder/B
+add wave -position end  sim:/tb_adder/cin
+add wave -position end  sim:/tb_adder/S
+add wave -position end  sim:/tb_adder/cout
+add wave -position end  sim:/tb_adder/i
+add wave -position end  sim:/tb_adder/j
+add wave -position end  sim:/tb_adder/error
+run
+quit -sim
+# End time: 23:37:02 on Oct 29,2022, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 7
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA_tb_not_complete.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_adder
+# vsim -gui work.tb_adder 
+# Start time: 23:37:40 on Oct 29,2022
+# Loading work.tb_adder
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position end  sim:/tb_adder/A
+add wave -position end  sim:/tb_adder/B
+add wave -position end  sim:/tb_adder/cin
+add wave -position end  sim:/tb_adder/S
+add wave -position end  sim:/tb_adder/cout
+add wave -position end  sim:/tb_adder/i
+add wave -position end  sim:/tb_adder/j
+add wave -position end  sim:/tb_adder/error
+run
+quit -sim
+# End time: 23:41:46 on Oct 29,2022, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 2
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA_tb_not_complete.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_adder
+# vsim -gui work.tb_adder 
+# Start time: 23:47:46 on Oct 29,2022
+# Loading work.tb_adder
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position end  sim:/tb_adder/A
+add wave -position end  sim:/tb_adder/B
+add wave -position end  sim:/tb_adder/cin
+add wave -position end  sim:/tb_adder/S
+add wave -position end  sim:/tb_adder/cout
+add wave -position end  sim:/tb_adder/i
+add wave -position end  sim:/tb_adder/j
+add wave -position end  sim:/tb_adder/error
+run
+quit -sim
+# End time: 23:51:37 on Oct 29,2022, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 2
+# Compile of CSA.v was successful.
+# Compile of CSA.v was successful.
+# Compile of SelectAdder.v failed with 3 errors.
+# Compile of SelectAdder.v was successful.
+vsim -gui work.carry_select_adder
+# vsim -gui work.carry_select_adder 
+# Start time: 14:34:58 on Oct 30,2022
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position end  sim:/carry_select_adder/A
+add wave -position end  sim:/carry_select_adder/B
+add wave -position end  sim:/carry_select_adder/cin
+add wave -position end  sim:/carry_select_adder/S
+add wave -position end  sim:/carry_select_adder/cout
+add wave -position end  sim:/carry_select_adder/OF
+add wave -position end  sim:/carry_select_adder/temp0
+add wave -position end  sim:/carry_select_adder/temp1
+add wave -position end  sim:/carry_select_adder/carry0
+add wave -position end  sim:/carry_select_adder/carry1
+add wave -position end  sim:/carry_select_adder/ofPositive
+add wave -position end  sim:/carry_select_adder/ofNegative
+force -freeze sim:/carry_select_adder/A 01011111111111111110100011001010 0
+force -freeze sim:/carry_select_adder/B 01010100111101001111111111111111 0
+force -freeze sim:/carry_select_adder/cin 0 0
+run
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 14:42:22 on Oct 30,2022, Elapsed time: 0:07:24
+# Errors: 0, Warnings: 6
+vsim -gui work.carry_select_adder
+# vsim -gui work.carry_select_adder 
+# Start time: 14:43:51 on Oct 30,2022
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position end  sim:/carry_select_adder/A
+add wave -position end  sim:/carry_select_adder/B
+add wave -position end  sim:/carry_select_adder/cin
+add wave -position end  sim:/carry_select_adder/S
+add wave -position end  sim:/carry_select_adder/cout
+add wave -position end  sim:/carry_select_adder/OF
+add wave -position end  sim:/carry_select_adder/temp0
+add wave -position end  sim:/carry_select_adder/temp1
+add wave -position end  sim:/carry_select_adder/carry0
+add wave -position end  sim:/carry_select_adder/carry1
+add wave -position end  sim:/carry_select_adder/ofPositive
+add wave -position end  sim:/carry_select_adder/ofNegative
+# Can't move the Now cursor.
+force -freeze sim:/carry_select_adder/A 01011111111111111110100011001010 0
+force -freeze sim:/carry_select_adder/B 01010100111101001111111111111111 0
+force -freeze sim:/carry_select_adder/cin 0 0
+run
+quit -sim
+# End time: 14:49:34 on Oct 30,2022, Elapsed time: 0:05:43
+# Errors: 0, Warnings: 1
+vsim -gui work.carry_select_adder
+# vsim -gui work.carry_select_adder 
+# Start time: 14:49:48 on Oct 30,2022
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+quit -sim
+# End time: 14:50:09 on Oct 30,2022, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+# Compile of SelectAdder.v was successful.
+vsim -gui work.carry_select_adder
+# vsim -gui work.carry_select_adder 
+# Start time: 14:50:32 on Oct 30,2022
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position end  sim:/carry_select_adder/A
+add wave -position end  sim:/carry_select_adder/B
+add wave -position end  sim:/carry_select_adder/cin
+add wave -position end  sim:/carry_select_adder/S
+add wave -position end  sim:/carry_select_adder/cout
+add wave -position end  sim:/carry_select_adder/OF
+add wave -position end  sim:/carry_select_adder/temp0
+add wave -position end  sim:/carry_select_adder/temp1
+add wave -position end  sim:/carry_select_adder/carry0
+add wave -position end  sim:/carry_select_adder/carry1
+add wave -position end  sim:/carry_select_adder/ofPositive
+add wave -position end  sim:/carry_select_adder/ofNegative
+force -freeze sim:/carry_select_adder/A b01010100111101001111111111111111 0
+# Invalid binary digit: b.
+# ** UI-Msg: (vsim-4011) Invalid force value: b01010100111101001111111111111111 0.
+# 
+force -freeze sim:/carry_select_adder/B 01011111111111111110100011001010 0
+force -freeze sim:/carry_select_adder/cin 0 0
+run
+force -freeze sim:/carry_select_adder/A b01010100111101001111111111111111 0
+# Invalid binary digit: b.
+# ** UI-Msg: (vsim-4011) Invalid force value: b01010100111101001111111111111111 0.
+# 
+run
+quit -sim
+# End time: 14:52:37 on Oct 30,2022, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 2
+vsim -gui work.carry_select_adder
+# vsim -gui work.carry_select_adder 
+# Start time: 14:56:17 on Oct 30,2022
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position end  sim:/carry_select_adder/A
+add wave -position end  sim:/carry_select_adder/B
+add wave -position end  sim:/carry_select_adder/cin
+add wave -position end  sim:/carry_select_adder/S
+add wave -position end  sim:/carry_select_adder/cout
+add wave -position end  sim:/carry_select_adder/OF
+add wave -position end  sim:/carry_select_adder/temp0
+add wave -position end  sim:/carry_select_adder/temp1
+add wave -position end  sim:/carry_select_adder/carry0
+add wave -position end  sim:/carry_select_adder/carry1
+add wave -position end  sim:/carry_select_adder/ofPositive
+add wave -position end  sim:/carry_select_adder/ofNegative
+force -freeze sim:/carry_select_adder/A 01010100111101001111111111111111 0
+force -freeze sim:/carry_select_adder/A 01010100111101001111111111111111 0
+force -freeze sim:/carry_select_adder/B 01011111111111111110100011001010 0
+force -freeze sim:/carry_select_adder/cin 0 0
+run
+quit -sim
+# End time: 15:01:50 on Oct 30,2022, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 1
+# Compile of SelectAdder.v was successful.
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.tb_CSkipA32
+# vsim -gui work.tb_CSkipA32 
+# Start time: 15:48:52 on Oct 30,2022
+# Loading work.tb_CSkipA32
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'carry_select_adder'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_CSkipA32 File: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA_tb_complete.v Line: 11
+# Error loading design
+# End time: 15:48:52 on Oct 30,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.CSkipA32
+# vsim -gui work.CSkipA32 
+# Start time: 15:50:27 on Oct 30,2022
+# Loading work.CSkipA32
+# Loading work.RCA4
+# Loading work.FA
+# Loading work.SkipLogic
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /CSkipA32/skip0 File: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'b'. The port definition is at: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /CSkipA32/skip7 File: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA.v Line: 53
+add wave -position end  sim:/CSkipA32/sum
+add wave -position end  sim:/CSkipA32/cout
+add wave -position insertpoint  \
+sim:/CSkipA32/sum \
+sim:/CSkipA32/cout \
+sim:/CSkipA32/a \
+sim:/CSkipA32/cin \
+sim:/CSkipA32/b \
+sim:/CSkipA32/OF \
+sim:/CSkipA32/ofPositive \
+sim:/CSkipA32/ofNegative \
+sim:/CSkipA32/couts \
+sim:/CSkipA32/e
+quit -sim
+# End time: 15:50:55 on Oct 30,2022, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 4
+vsim -gui work.CSkipA32
+# vsim -gui work.CSkipA32 
+# Start time: 15:51:00 on Oct 30,2022
+# Loading work.CSkipA32
+# Loading work.RCA4
+# Loading work.FA
+# Loading work.SkipLogic
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /CSkipA32/skip0 File: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'b'. The port definition is at: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /CSkipA32/skip7 File: C:/Daily use/Materials/Senior l Computer engineer/VLSI/Project/project1/CSA.v Line: 53
+add wave -position insertpoint  \
+sim:/CSkipA32/sum \
+sim:/CSkipA32/cout \
+sim:/CSkipA32/a \
+sim:/CSkipA32/cin \
+sim:/CSkipA32/b \
+sim:/CSkipA32/OF \
+sim:/CSkipA32/ofPositive \
+sim:/CSkipA32/ofNegative \
+sim:/CSkipA32/couts \
+sim:/CSkipA32/e
+run
+run
+quit -sim
+# End time: 15:52:10 on Oct 30,2022, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 3
+vsim -gui work.tb_CSkipA32
+# vsim -gui work.tb_CSkipA32 
+# Start time: 15:55:21 on Oct 30,2022
+# Loading work.tb_CSkipA32
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position insertpoint  \
+sim:/tb_CSkipA32/sum \
+sim:/tb_CSkipA32/cout \
+sim:/tb_CSkipA32/OF \
+sim:/tb_CSkipA32/a \
+sim:/tb_CSkipA32/b \
+sim:/tb_CSkipA32/cin \
+sim:/tb_CSkipA32/successful_tests \
+sim:/tb_CSkipA32/failed_tests
+run
+# Test#1:success
+# A= 01011111111111111110100011001010|B= 01010100111101001111111111111111||cout= 0|Sum10110100111101001110100011001001|OverFlow=1
+# Test#2:success
+# A= 10100000101000001111111111111111|B= 10100000101111111111111111100000||cout= 1|Sum01000001011000001111111111011111|OverFlow=1
+# Test#3:success
+# A= 10000000101000001111111111111111|B= 00100000101111111111111111100000||cout= 0|Sum10100001011000001111111111011111|OverFlow=0
+# Test#4:success
+# A= 00000000101000001110111111111111|B= 00100000101111111110111111100000||cout= 0|Sum00100001011000001101111111011111|OverFlow=0
+# Test#5:success
+# A= 10000000101000001110111111111111|B= 10100000101111111110111111100000||cout= 1|Sum00100001011000001101111111011111|OverFlow=1
+# Test#6:success
+# A= 01011000111111111111111111110100|B= 10010100111101001111111111111111||cout= 0|Sum11101101111101001111111111110011|OverFlow=0
+# Test#7:success
+# A= 01000001111111110000111100111101|B= 00001111000011111111111111111111||cout= 0|Sum01010001000011110000111100111100|OverFlow=0
+# Test#8:success
+# A= 11011111111111111110100011001010|B= 11001111111111111111100011001010||cout= 1|Sum10101111111111111110000110010101|OverFlow=0
+# Testbench ended with           8 successful testcases and           0 failed tests
+quit -sim
+# End time: 15:57:40 on Oct 30,2022, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 1
+# Compile of CLA.v failed with 3 errors.
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v failed with 10 errors.
+# 7 compiles, 1 failed with 10 errors.
+# Compile of CLA.v failed with 9 errors.
+# Compile of CLA.v failed with 8 errors.
+# Compile of CLA.v failed with 5 errors.
+# Compile of CLA.v failed with 3 errors.
+# Compile of CLA.v was successful.
+# Compile of CLA.v was successful.
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.tb_CSkipA32
+# vsim -gui work.tb_CSkipA32 
+# Start time: 21:42:33 on Oct 30,2022
+# Loading work.tb_CSkipA32
+# Loading work.carry_lookahead_adder_32_bit
+# Loading work.full_adder
+add wave -position insertpoint  \
+sim:/tb_CSkipA32/sum \
+sim:/tb_CSkipA32/cout \
+sim:/tb_CSkipA32/OF \
+sim:/tb_CSkipA32/a \
+sim:/tb_CSkipA32/b \
+sim:/tb_CSkipA32/cin \
+sim:/tb_CSkipA32/successful_tests \
+sim:/tb_CSkipA32/failed_tests
+run
+# Test#1:success
+# A= 01011111111111111110100011001010|B= 01010100111101001111111111111111||cout= 1|Sum10110100111101001110100011001001|OverFlow=1
+# Test#2:success
+# A= 10100000101000001111111111111111|B= 10100000101111111111111111100000||cout= 0|Sum01000001011000001111111111011111|OverFlow=1
+# Test#3:success
+# A= 10000000101000001111111111111111|B= 00100000101111111111111111100000||cout= 0|Sum10100001011000001111111111011111|OverFlow=0
+# Test#4:success
+# A= 00000000101000001110111111111111|B= 00100000101111111110111111100000||cout= 0|Sum00100001011000001101111111011111|OverFlow=0
+# Test#5:success
+# A= 10000000101000001110111111111111|B= 10100000101111111110111111100000||cout= 0|Sum00100001011000001101111111011111|OverFlow=1
+# Test#6:success
+# A= 01011000111111111111111111110100|B= 10010100111101001111111111111111||cout= 0|Sum11101101111101001111111111110011|OverFlow=0
+# Test#7:success
+# A= 01000001111111110000111100111101|B= 00001111000011111111111111111111||cout= 0|Sum01010001000011110000111100111100|OverFlow=0
+# Test#8:failed with input 11011111111111111110100011001010 and 11001111111111111111100011001010 and Output 10101111111111111110000110010100 and overflow status 0
+# A= 11011111111111111110100011001010|B= 11001111111111111111100011001010||cout= 1|Sum10101111111111111110000110010100|OverFlow=0
+# Testbench ended with           7 successful testcases and           1 failed tests
+quit -sim
+# End time: 21:51:05 on Oct 30,2022, Elapsed time: 0:08:32
+# Errors: 0, Warnings: 10
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# Compile of tb_signed_adder.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.tb_32
+# vsim -gui work.tb_32 
+# Start time: 22:26:28 on Oct 30,2022
+# Loading work.tb_32
+# Loading work.carry_lookahead_adder_32_bit
+# Loading work.full_adder
+add wave -position insertpoint  \
+sim:/tb_32/sum \
+sim:/tb_32/cout \
+sim:/tb_32/OF \
+sim:/tb_32/a \
+sim:/tb_32/b \
+sim:/tb_32/successful_tests \
+sim:/tb_32/failed_tests
+run
+# Test#1:success
+# A= 01011111111111111110100011001010|B= 01010100111101001111111111111111||cout= 1|Sum10110100111101001110100011001001|OverFlow=1
+# Test#2:success
+# A= 10100000101000001111111111111111|B= 10100000101111111111111111100000||cout= 0|Sum01000001011000001111111111011111|OverFlow=1
+# Test#3:success
+# A= 10000000101000001111111111111111|B= 00100000101111111111111111100000||cout= 0|Sum10100001011000001111111111011111|OverFlow=0
+# Test#4:success
+# A= 00000000101000001110111111111111|B= 00100000101111111110111111100000||cout= 0|Sum00100001011000001101111111011111|OverFlow=0
+# Test#5:success
+# A= 10000000101000001110111111111111|B= 10100000101111111110111111100000||cout= 0|Sum00100001011000001101111111011111|OverFlow=1
+# Test#6:success
+# A= 01011000111111111111111111110100|B= 10010100111101001111111111111111||cout= 0|Sum11101101111101001111111111110011|OverFlow=0
+# Test#7:success
+# A= 01000001111111110000111100111101|B= 00001111000011111111111111111111||cout= 0|Sum01010001000011110000111100111100|OverFlow=0
+# Test#8:success
+# A= 11011111111111111110100011001010|B= 11001111111111111111100011001010||cout= 1|Sum10101111111111111110000110010100|OverFlow=0
+# Testbench ended with           8 successful testcases and           0 failed tests
+quit -sim
+# End time: 22:43:47 on Oct 30,2022, Elapsed time: 0:17:19
+# Errors: 0, Warnings: 3
+# Compile of tb_signed_adder.v was successful.
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# Compile of tb_signed_adder.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# Compile of tb_signed_adder.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_CSkipA32
+# vsim -gui work.tb_CSkipA32 
+# Start time: 22:56:58 on Oct 30,2022
+# Loading work.tb_CSkipA32
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position insertpoint  \
+sim:/tb_CSkipA32/sum \
+sim:/tb_CSkipA32/cout \
+sim:/tb_CSkipA32/OF \
+sim:/tb_CSkipA32/a \
+sim:/tb_CSkipA32/b \
+sim:/tb_CSkipA32/cin \
+sim:/tb_CSkipA32/successful_tests \
+sim:/tb_CSkipA32/failed_tests
+run
+# Test#1:failed with input 01011111111111111110100011001010 and 01010100111101001111111111111111 and Output 1011010011110100111010001100xxzx and overflow status 1
+# A= 01011111111111111110100011001010|B= 01010100111101001111111111111111||cout= 0|Sum1011010011110100111010001100xxzx|OverFlow=1
+# Test#2:failed with input 10100000101000001111111111111111 and 10100000101111111111111111100000 and Output 01000001011000001111111111xxxxz1 and overflow status 1
+# A= 10100000101000001111111111111111|B= 10100000101111111111111111100000||cout= 1|Sum01000001011000001111111111xxxxz1|OverFlow=1
+# Test#3:failed with input 10000000101000001111111111111111 and 00100000101111111111111111100000 and Output 10100001011000001111111111xxxxz1 and overflow status 0
+# A= 10000000101000001111111111111111|B= 00100000101111111111111111100000||cout= 0|Sum10100001011000001111111111xxxxz1|OverFlow=0
+# Test#4:failed with input 00000000101000001110111111111111 and 00100000101111111110111111100000 and Output 00100001011000001101111111xxxxz1 and overflow status 0
+# A= 00000000101000001110111111111111|B= 00100000101111111110111111100000||cout= 0|Sum00100001011000001101111111xxxxz1|OverFlow=0
+# Test#5:failed with input 10000000101000001110111111111111 and 10100000101111111110111111100000 and Output 00100001011000001101111111xxxxz1 and overflow status 1
+# A= 10000000101000001110111111111111|B= 10100000101111111110111111100000||cout= 1|Sum00100001011000001101111111xxxxz1|OverFlow=1
+# Test#6:failed with input 01011000111111111111111111110100 and 10010100111101001111111111111111 and Output 11101101111101001111111111110xz1 and overflow status 0
+# A= 01011000111111111111111111110100|B= 10010100111101001111111111111111||cout= 0|Sum11101101111101001111111111110xz1|OverFlow=0
+# Test#7:failed with input 01000001111111110000111100111101 and 00001111000011111111111111111111 and Output 01010001000011110000111100111xz0 and overflow status 0
+# A= 01000001111111110000111100111101|B= 00001111000011111111111111111111||cout= 0|Sum01010001000011110000111100111xz0|OverFlow=0
+# Test#8:failed with input 11011111111111111110100011001010 and 11001111111111111111100011001010 and Output 10101111111111111110000110010xzx and overflow status 0
+# A= 11011111111111111110100011001010|B= 11001111111111111111100011001010||cout= 1|Sum10101111111111111110000110010xzx|OverFlow=0
+# Testbench ended with           0 successful testcases and           8 failed tests
+quit -sim
+# End time: 22:57:53 on Oct 30,2022, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 4
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# Compile of tb_signed_adder.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_CSkipA32
+# vsim -gui work.tb_CSkipA32 
+# Start time: 22:58:52 on Oct 30,2022
+# Loading work.tb_CSkipA32
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position insertpoint  \
+sim:/tb_CSkipA32/sum \
+sim:/tb_CSkipA32/cout \
+sim:/tb_CSkipA32/OF \
+sim:/tb_CSkipA32/a \
+sim:/tb_CSkipA32/b \
+sim:/tb_CSkipA32/cin \
+sim:/tb_CSkipA32/successful_tests \
+sim:/tb_CSkipA32/failed_tests
+run
+# Test#1:failed with input 01011111111111111110100011001010 and 01010100111101001111111111111111 and Output 011010011110100111010001100xxz01 and overflow status 0
+# A= 01011111111111111110100011001010|B= 01010100111101001111111111111111||cout= 0|Sum011010011110100111010001100xxz01|OverFlow=0
+# Test#2:failed with input 10100000101000001111111111111111 and 10100000101111111111111111100000 and Output 1000001011000001111111111xxxxz11 and overflow status 0
+# A= 10100000101000001111111111111111|B= 10100000101111111111111111100000||cout= 1|Sum1000001011000001111111111xxxxz11|OverFlow=0
+# Test#3:failed with input 10000000101000001111111111111111 and 00100000101111111111111111100000 and Output 0100001011000001111111111xxxxz11 and overflow status 0
+# A= 10000000101000001111111111111111|B= 00100000101111111111111111100000||cout= 0|Sum0100001011000001111111111xxxxz11|OverFlow=0
+# Test#4:failed with input 00000000101000001110111111111111 and 00100000101111111110111111100000 and Output 0100001011000001101111111xxxxz11 and overflow status 0
+# A= 00000000101000001110111111111111|B= 00100000101111111110111111100000||cout= 0|Sum0100001011000001101111111xxxxz11|OverFlow=0
+# Test#5:failed with input 10000000101000001110111111111111 and 10100000101111111110111111100000 and Output 0100001011000001101111111xxxxz11 and overflow status 1
+# A= 10000000101000001110111111111111|B= 10100000101111111110111111100000||cout= 1|Sum0100001011000001101111111xxxxz11|OverFlow=1
+# Test#6:failed with input 01011000111111111111111111110100 and 10010100111101001111111111111111 and Output 1101101111101001111111111110xz11 and overflow status 0
+# A= 01011000111111111111111111110100|B= 10010100111101001111111111111111||cout= 0|Sum1101101111101001111111111110xz11|OverFlow=0
+# Test#7:failed with input 01000001111111110000111100111101 and 00001111000011111111111111111111 and Output 1010001000011110000111100111xz00 and overflow status 1
+# A= 01000001111111110000111100111101|B= 00001111000011111111111111111111||cout= 0|Sum1010001000011110000111100111xz00|OverFlow=1
+# Test#8:failed with input 11011111111111111110100011001010 and 11001111111111111111100011001010 and Output 0101111111111111110000110010xz01 and overflow status 1
+# A= 11011111111111111110100011001010|B= 11001111111111111111100011001010||cout= 1|Sum0101111111111111110000110010xz01|OverFlow=1
+# Testbench ended with           0 successful testcases and           8 failed tests
+quit -sim
+# End time: 22:59:41 on Oct 30,2022, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# Compile of tb_signed_adder.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_CSkipA32
+# vsim -gui work.tb_CSkipA32 
+# Start time: 23:02:08 on Oct 30,2022
+# Loading work.tb_CSkipA32
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position insertpoint  \
+sim:/tb_CSkipA32/sum \
+sim:/tb_CSkipA32/cout \
+sim:/tb_CSkipA32/OF \
+sim:/tb_CSkipA32/a \
+sim:/tb_CSkipA32/b \
+sim:/tb_CSkipA32/cin \
+sim:/tb_CSkipA32/successful_tests \
+sim:/tb_CSkipA32/failed_tests
+run
+# Test#1:success
+# A= 01011111111111111110100011001010|B= 01010100111101001111111111111111||cout= z|Sum10110100111101001110100011001001|OverFlow=1
+# Test#2:success
+# A= 10100000101000001111111111111111|B= 10100000101111111111111111100000||cout= z|Sum01000001011000001111111111011111|OverFlow=1
+# Test#3:success
+# A= 10000000101000001111111111111111|B= 00100000101111111111111111100000||cout= z|Sum10100001011000001111111111011111|OverFlow=0
+# Test#4:success
+# A= 00000000101000001110111111111111|B= 00100000101111111110111111100000||cout= z|Sum00100001011000001101111111011111|OverFlow=0
+# Test#5:success
+# A= 10000000101000001110111111111111|B= 10100000101111111110111111100000||cout= z|Sum00100001011000001101111111011111|OverFlow=1
+# Test#6:success
+# A= 01011000111111111111111111110100|B= 10010100111101001111111111111111||cout= z|Sum11101101111101001111111111110011|OverFlow=0
+# Test#7:success
+# A= 01000001111111110000111100111101|B= 00001111000011111111111111111111||cout= z|Sum01010001000011110000111100111100|OverFlow=0
+# Test#8:success
+# A= 11011111111111111110100011001010|B= 11001111111111111111100011001010||cout= z|Sum10101111111111111110000110010101|OverFlow=0
+# Testbench ended with           8 successful testcases and           0 failed tests
+quit -sim
+# End time: 23:02:38 on Oct 30,2022, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# Compile of tb_signed_adder.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_CSkipA32
+# vsim -gui work.tb_CSkipA32 
+# Start time: 23:07:41 on Oct 30,2022
+# Loading work.tb_CSkipA32
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.multiplexer2
+add wave -position insertpoint  \
+sim:/tb_CSkipA32/sum \
+sim:/tb_CSkipA32/cout \
+sim:/tb_CSkipA32/OF \
+sim:/tb_CSkipA32/a \
+sim:/tb_CSkipA32/b \
+sim:/tb_CSkipA32/cin \
+sim:/tb_CSkipA32/successful_tests \
+sim:/tb_CSkipA32/failed_tests
+run
+# Test#1:success
+# A= 01011111111111111110100011001010|B= 01010100111101001111111111111111||cout= 0|Sum10110100111101001110100011001001|OverFlow=1
+# Test#2:success
+# A= 10100000101000001111111111111111|B= 10100000101111111111111111100000||cout= 1|Sum01000001011000001111111111011111|OverFlow=1
+# Test#3:success
+# A= 10000000101000001111111111111111|B= 00100000101111111111111111100000||cout= 0|Sum10100001011000001111111111011111|OverFlow=0
+# Test#4:success
+# A= 00000000101000001110111111111111|B= 00100000101111111110111111100000||cout= 0|Sum00100001011000001101111111011111|OverFlow=0
+# Test#5:success
+# A= 10000000101000001110111111111111|B= 10100000101111111110111111100000||cout= 1|Sum00100001011000001101111111011111|OverFlow=1
+# Test#6:success
+# A= 01011000111111111111111111110100|B= 10010100111101001111111111111111||cout= 0|Sum11101101111101001111111111110011|OverFlow=0
+# Test#7:success
+# A= 01000001111111110000111100111101|B= 00001111000011111111111111111111||cout= 0|Sum01010001000011110000111100111100|OverFlow=0
+# Test#8:success
+# A= 11011111111111111110100011001010|B= 11001111111111111111100011001010||cout= 1|Sum10101111111111111110000110010101|OverFlow=0
+# Testbench ended with           8 successful testcases and           0 failed tests
+quit -sim
+# End time: 23:22:56 on Oct 30,2022, Elapsed time: 0:15:15
+# Errors: 0, Warnings: 2
+# Compile of SelectAdder.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Select_tb.v was successful.
+# Compile of CSA.v was successful.
+# Compile of CSA_tb_complete.v was successful.
+# Compile of CLA.v was successful.
+# Compile of tb_signed_adder.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_32
+# vsim -gui work.tb_32 
+# Start time: 23:51:21 on Oct 30,2022
+# Loading work.tb_32
+# Loading work.carry_lookahead_adder_32_bit
+# Loading work.full_adder
+add wave -position insertpoint  \
+sim:/tb_32/sum \
+sim:/tb_32/cout \
+sim:/tb_32/OF \
+sim:/tb_32/a \
+sim:/tb_32/b \
+sim:/tb_32/successful_tests \
+sim:/tb_32/failed_tests
+run
+# Test#1:success
+# A= 01011111111111111110100011001010|B= 01010100111101001111111111111111||cout= 0|Sum10110100111101001110100011001001|OverFlow=1
+# Test#2:success
+# A= 10100000101000001111111111111111|B= 10100000101111111111111111100000||cout= 1|Sum01000001011000001111111111011111|OverFlow=1
+# Test#3:success
+# A= 10000000101000001111111111111111|B= 00100000101111111111111111100000||cout= 0|Sum10100001011000001111111111011111|OverFlow=0
+# Test#4:success
+# A= 00000000101000001110111111111111|B= 00100000101111111110111111100000||cout= 0|Sum00100001011000001101111111011111|OverFlow=0
+# Test#5:success
+# A= 10000000101000001110111111111111|B= 10100000101111111110111111100000||cout= 1|Sum00100001011000001101111111011111|OverFlow=1
+# Test#6:success
+# A= 01011000111111111111111111110100|B= 10010100111101001111111111111111||cout= 0|Sum11101101111101001111111111110011|OverFlow=0
+# Test#7:success
+# A= 01000001111111110000111100111101|B= 00001111000011111111111111111111||cout= 0|Sum01010001000011110000111100111100|OverFlow=0
+# Test#8:success
+# A= 11011111111111111110100011001010|B= 11001111111111111111100011001010||cout= 1|Sum10101111111111111110000110010100|OverFlow=0
+# Testbench ended with           8 successful testcases and           0 failed tests
+quit -sim
+# End time: 23:57:17 on Oct 30,2022, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 2
+# Ctrl+G  ==>  Goto
+# Ctrl+H  ==>  Replace
+# Ctrl+U  ==>  Delete Line
+# Ctrl+W  ==>  Add Selection To Wave
+# Ctrl+G  ==>  Goto
+# Ctrl+H  ==>  Replace
+# Ctrl+U  ==>  Delete Line
+# Ctrl+W  ==>  Add Selection To Wave
